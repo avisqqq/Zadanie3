@@ -219,7 +219,7 @@ class Program
 
                 hoofd.xPos++;
 
-            //Hindernis treffen
+            //Uderz w przeszkodę
 
             if (hoofd.xPos == obstakel.Xpos && hoofd.yPos == obstakel.Ypos)
 
@@ -241,7 +241,7 @@ class Program
 
             teljePositie.RemoveAt(teljePositie.Count - 1);
 
-            //Kollision mit Wände oder mit sich selbst
+            //Zderzenie ze ścianą lub z samym sobą
 
             if (hoofd.xPos == 0 || hoofd.xPos == screenwidth - 1 || hoofd.yPos == 0 || hoofd.yPos == screenheight - 1)
 
